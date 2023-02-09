@@ -2,7 +2,7 @@ Lab Name: Create and Manage Cloud Resources: Challenge Lab (GSP313)
 
 Task 1: Create a project jumphost instance
 Run command:
-gcloud compute instances create nucleus-jumphost \
+gcloud compute instances create nucleus-jumphost-486 \
           --network nucleus-vpc \
           --zone us-east1-b  \
           --machine-type f1-micro  \
